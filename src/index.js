@@ -8,6 +8,7 @@ import reducer from './reducers';
 
 import { Provider } from 'react-redux';
 
+import './index.css';
 
 const store = createStore (
   reducer,
